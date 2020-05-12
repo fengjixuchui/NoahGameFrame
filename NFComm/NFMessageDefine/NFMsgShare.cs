@@ -36,27 +36,31 @@ namespace NFMsg {
             "KAwSEAoIc2NlbmVfaWQYCCABKAUSEAoIY2xhc3NfaWQYCSABKAwiQQoSQWNr",
             "UGxheWVyRW50cnlMaXN0EisKC29iamVjdF9saXN0GAEgAygLMhYuTkZNc2cu",
             "UGxheWVyRW50cnlJbmZvIjcKEkFja1BsYXllckxlYXZlTGlzdBIhCgtvYmpl",
-            "Y3RfbGlzdBgBIAMoCzIMLk5GTXNnLklkZW50IuEBChBSZXFBY2tQbGF5ZXJN",
-            "b3ZlEhsKBW1vdmVyGAEgASgLMgwuTkZNc2cuSWRlbnQSEAoIbW92ZVR5cGUY",
-            "AiABKAUSDQoFc3BlZWQYAyABKAISDAoEdGltZRgEIAEoBRIRCglsYXN0U3Rh",
-            "dGUYBSABKAUSIgoKdGFyZ2V0X3BvcxgGIAMoCzIOLk5GTXNnLlZlY3RvcjMS",
-            "IgoKc291cmNlX3BvcxgHIAMoCzIOLk5GTXNnLlZlY3RvcjMSJgoObW92ZV9k",
-            "aXJlY3Rpb24YCCADKAsyDi5ORk1zZy5WZWN0b3IzIr8BChNSZXFBY2tQbGF5",
-            "ZXJQb3NTeW5jEhsKBW1vdmVyGAEgASgLMgwuTkZNc2cuSWRlbnQSDAoEdGlt",
-            "ZRgCIAEoBRIZChFJbnRlcnBvbGF0aW9uVGltZRgDIAEoAhIgCghwb3NpdGlv",
-            "bhgEIAEoCzIOLk5GTXNnLlZlY3RvcjMSIQoJZGlyZWN0aW9uGAUgASgLMg4u",
-            "TkZNc2cuVmVjdG9yMxIOCgZzdGF0dXMYBiABKAUSDQoFZnJhbWUYByABKAUi",
-            "0wEKCkVmZmVjdERhdGESIgoMZWZmZWN0X2lkZW50GAEgASgLMgwuTkZNc2cu",
-            "SWRlbnQSFAoMZWZmZWN0X3ZhbHVlGAIgASgFEjEKCmVmZmVjdF9ybHQYAyAB",
-            "KA4yHS5ORk1zZy5FZmZlY3REYXRhLkVSZXN1bHRUeXBlIlgKC0VSZXN1bHRU",
-            "eXBlEgwKCEVFVF9GQUlMEAASDwoLRUVUX1NVQ0NFU1MQARIOCgpFRVRfUkVG",
-            "VVNFEAISDAoIRUVUX01JU1MQAxIMCghFRVRfQ1JJVBAEInkKDlJlcUFja1Vz",
-            "ZVNraWxsEhoKBHVzZXIYASABKAsyDC5ORk1zZy5JZGVudBIQCghza2lsbF9p",
-            "ZBgCIAEoDBIRCgl1c2VfaW5kZXgYAyABKAUSJgoLZWZmZWN0X2RhdGEYBCAD",
-            "KAsyES5ORk1zZy5FZmZlY3REYXRhInoKD1JlcUFja1N3YXBTY2VuZRIVCg10",
-            "cmFuc2Zlcl90eXBlGAEgASgFEhAKCHNjZW5lX2lkGAIgASgFEg8KB2xpbmVf",
-            "aWQYAyABKAUSCQoBeBgEIAEoAhIJCgF5GAUgASgCEgkKAXoYBiABKAISDAoE",
-            "ZGF0YRgHIAEoDGIGcHJvdG8z"));
+            "Y3RfbGlzdBgBIAMoCzIMLk5GTXNnLklkZW50IqUBCgtQb3NTeW5jVW5pdBIb",
+            "CgVtb3ZlchgBIAEoCzIMLk5GTXNnLklkZW50EhsKA25vdxgCIAEoCzIOLk5G",
+            "TXNnLlZlY3RvcjMSGwoDcG9zGAMgASgLMg4uTkZNc2cuVmVjdG9yMxIhCglk",
+            "aXJlY3Rpb24YBCABKAsyDi5ORk1zZy5WZWN0b3IzEg4KBnN0YXR1cxgFIAEo",
+            "BRIMCgR0aW1lGAYgASgCIjwKE1JlcUFja1BsYXllclBvc1N5bmMSJQoJc3lu",
+            "Y191bml0GAEgAygLMhIuTkZNc2cuUG9zU3luY1VuaXQi4QEKCkVmZmVjdERh",
+            "dGESIgoMZWZmZWN0X2lkZW50GAEgASgLMgwuTkZNc2cuSWRlbnQSFAoMZWZm",
+            "ZWN0X3ZhbHVlGAIgASgFEjEKCmVmZmVjdF9ybHQYAyABKA4yHS5ORk1zZy5F",
+            "ZmZlY3REYXRhLkVSZXN1bHRUeXBlImYKC0VSZXN1bHRUeXBlEgwKCEVFVF9G",
+            "QUlMEAASDwoLRUVUX1NVQ0NFU1MQARIOCgpFRVRfUkVGVVNFEAISDAoIRUVU",
+            "X01JU1MQAxIMCghFRVRfQ1JJVBAEEgwKCEVFVF9VTFRJEAUieQoOUmVxQWNr",
+            "VXNlU2tpbGwSGgoEdXNlchgBIAEoCzIMLk5GTXNnLklkZW50EhAKCHNraWxs",
+            "X2lkGAIgASgMEhEKCXVzZV9pbmRleBgDIAEoBRImCgtlZmZlY3RfZGF0YRgE",
+            "IAMoCzIRLk5GTXNnLkVmZmVjdERhdGEiegoPUmVxQWNrU3dhcFNjZW5lEhUK",
+            "DXRyYW5zZmVyX3R5cGUYASABKAUSEAoIc2NlbmVfaWQYAiABKAUSDwoHbGlu",
+            "ZV9pZBgDIAEoBRIJCgF4GAQgASgCEgkKAXkYBSABKAISCQoBehgGIAEoAhIM",
+            "CgRkYXRhGAcgASgMIucCChBSZXFBY2tQbGF5ZXJDaGF0Eh8KCXBsYXllcl9p",
+            "ZBgBIAEoCzIMLk5GTXNnLklkZW50EhMKC3BsYXllcl9uYW1lGAIgASgMEj4K",
+            "DGNoYXRfY2hhbm5lbBgDIAEoDjIoLk5GTXNnLlJlcUFja1BsYXllckNoYXQu",
+            "RUdhbWVDaGF0Q2hhbm5lbBI4CgljaGF0X3R5cGUYBCABKA4yJS5ORk1zZy5S",
+            "ZXFBY2tQbGF5ZXJDaGF0LkVHYW1lQ2hhdFR5cGUSEQoJY2hhdF9pbmZvGAUg",
+            "ASgMIlAKEEVHYW1lQ2hhdENoYW5uZWwSDwoLRUdDQ19HTE9CQUwQABINCglF",
+            "R0NDX0NMQU4QARINCglFR0NDX1JPT00QAhINCglFR0NDX1RFQU0QAyI+Cg1F",
+            "R2FtZUNoYXRUeXBlEg0KCUVHQ1RfVEVYVBAAEg4KCkVHQ1RfVk9JQ0UQARIO",
+            "CgpFR0NUX0VNT0pJEAJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::NFMsg.NFDefineReflection.Descriptor, global::NFMsg.NFMsgBaseReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
@@ -67,11 +71,12 @@ namespace NFMsg {
             new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.PlayerEntryInfo), global::NFMsg.PlayerEntryInfo.Parser, new[]{ "ObjectGuid", "X", "Y", "Z", "CareerType", "PlayerState", "ConfigId", "SceneId", "ClassId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.AckPlayerEntryList), global::NFMsg.AckPlayerEntryList.Parser, new[]{ "ObjectList" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.AckPlayerLeaveList), global::NFMsg.AckPlayerLeaveList.Parser, new[]{ "ObjectList" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.ReqAckPlayerMove), global::NFMsg.ReqAckPlayerMove.Parser, new[]{ "Mover", "MoveType", "Speed", "Time", "LastState", "TargetPos", "SourcePos", "MoveDirection" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.ReqAckPlayerPosSync), global::NFMsg.ReqAckPlayerPosSync.Parser, new[]{ "Mover", "Time", "InterpolationTime", "Position", "Direction", "Status", "Frame" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.PosSyncUnit), global::NFMsg.PosSyncUnit.Parser, new[]{ "Mover", "Now", "Pos", "Direction", "Status", "Time" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.ReqAckPlayerPosSync), global::NFMsg.ReqAckPlayerPosSync.Parser, new[]{ "SyncUnit" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.EffectData), global::NFMsg.EffectData.Parser, new[]{ "EffectIdent", "EffectValue", "EffectRlt" }, null, new[]{ typeof(global::NFMsg.EffectData.Types.EResultType) }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.ReqAckUseSkill), global::NFMsg.ReqAckUseSkill.Parser, new[]{ "User", "SkillId", "UseIndex", "EffectData" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.ReqAckSwapScene), global::NFMsg.ReqAckSwapScene.Parser, new[]{ "TransferType", "SceneId", "LineId", "X", "Y", "Z", "Data" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.ReqAckSwapScene), global::NFMsg.ReqAckSwapScene.Parser, new[]{ "TransferType", "SceneId", "LineId", "X", "Y", "Z", "Data" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::NFMsg.ReqAckPlayerChat), global::NFMsg.ReqAckPlayerChat.Parser, new[]{ "PlayerId", "PlayerName", "ChatChannel", "ChatType", "ChatInfo" }, null, new[]{ typeof(global::NFMsg.ReqAckPlayerChat.Types.EGameChatChannel), typeof(global::NFMsg.ReqAckPlayerChat.Types.EGameChatType) }, null, null)
           }));
     }
     #endregion
@@ -1288,14 +1293,11 @@ namespace NFMsg {
 
   }
 
-  /// <summary>
-  /////////////////////////////////////////////////////////////////////////////////////////////////////
-  /// </summary>
-  public sealed partial class ReqAckPlayerMove : pb::IMessage<ReqAckPlayerMove> {
-    private static readonly pb::MessageParser<ReqAckPlayerMove> _parser = new pb::MessageParser<ReqAckPlayerMove>(() => new ReqAckPlayerMove());
+  public sealed partial class PosSyncUnit : pb::IMessage<PosSyncUnit> {
+    private static readonly pb::MessageParser<PosSyncUnit> _parser = new pb::MessageParser<PosSyncUnit>(() => new PosSyncUnit());
     private pb::UnknownFieldSet _unknownFields;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<ReqAckPlayerMove> Parser { get { return _parser; } }
+    public static pb::MessageParser<PosSyncUnit> Parser { get { return _parser; } }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
@@ -1308,28 +1310,26 @@ namespace NFMsg {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ReqAckPlayerMove() {
+    public PosSyncUnit() {
       OnConstruction();
     }
 
     partial void OnConstruction();
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ReqAckPlayerMove(ReqAckPlayerMove other) : this() {
+    public PosSyncUnit(PosSyncUnit other) : this() {
       mover_ = other.mover_ != null ? other.mover_.Clone() : null;
-      moveType_ = other.moveType_;
-      speed_ = other.speed_;
+      now_ = other.now_ != null ? other.now_.Clone() : null;
+      pos_ = other.pos_ != null ? other.pos_.Clone() : null;
+      direction_ = other.direction_ != null ? other.direction_.Clone() : null;
+      status_ = other.status_;
       time_ = other.time_;
-      lastState_ = other.lastState_;
-      targetPos_ = other.targetPos_.Clone();
-      sourcePos_ = other.sourcePos_.Clone();
-      moveDirection_ = other.moveDirection_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public ReqAckPlayerMove Clone() {
-      return new ReqAckPlayerMove(this);
+    public PosSyncUnit Clone() {
+      return new PosSyncUnit(this);
     }
 
     /// <summary>Field number for the "mover" field.</summary>
@@ -1343,90 +1343,68 @@ namespace NFMsg {
       }
     }
 
-    /// <summary>Field number for the "moveType" field.</summary>
-    public const int MoveTypeFieldNumber = 2;
-    private int moveType_;
-    /// <summary>
-    ///future_state
-    /// </summary>
+    /// <summary>Field number for the "now" field.</summary>
+    public const int NowFieldNumber = 2;
+    private global::NFMsg.Vector3 now_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int MoveType {
-      get { return moveType_; }
+    public global::NFMsg.Vector3 Now {
+      get { return now_; }
       set {
-        moveType_ = value;
+        now_ = value;
       }
     }
 
-    /// <summary>Field number for the "speed" field.</summary>
-    public const int SpeedFieldNumber = 3;
-    private float speed_;
+    /// <summary>Field number for the "pos" field.</summary>
+    public const int PosFieldNumber = 3;
+    private global::NFMsg.Vector3 pos_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float Speed {
-      get { return speed_; }
+    public global::NFMsg.Vector3 Pos {
+      get { return pos_; }
       set {
-        speed_ = value;
+        pos_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "direction" field.</summary>
+    public const int DirectionFieldNumber = 4;
+    private global::NFMsg.Vector3 direction_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::NFMsg.Vector3 Direction {
+      get { return direction_; }
+      set {
+        direction_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "status" field.</summary>
+    public const int StatusFieldNumber = 5;
+    private int status_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int Status {
+      get { return status_; }
+      set {
+        status_ = value;
       }
     }
 
     /// <summary>Field number for the "time" field.</summary>
-    public const int TimeFieldNumber = 4;
-    private int time_;
+    public const int TimeFieldNumber = 6;
+    private float time_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Time {
+    public float Time {
       get { return time_; }
       set {
         time_ = value;
       }
     }
 
-    /// <summary>Field number for the "lastState" field.</summary>
-    public const int LastStateFieldNumber = 5;
-    private int lastState_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int LastState {
-      get { return lastState_; }
-      set {
-        lastState_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "target_pos" field.</summary>
-    public const int TargetPosFieldNumber = 6;
-    private static readonly pb::FieldCodec<global::NFMsg.Vector3> _repeated_targetPos_codec
-        = pb::FieldCodec.ForMessage(50, global::NFMsg.Vector3.Parser);
-    private readonly pbc::RepeatedField<global::NFMsg.Vector3> targetPos_ = new pbc::RepeatedField<global::NFMsg.Vector3>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::NFMsg.Vector3> TargetPos {
-      get { return targetPos_; }
-    }
-
-    /// <summary>Field number for the "source_pos" field.</summary>
-    public const int SourcePosFieldNumber = 7;
-    private static readonly pb::FieldCodec<global::NFMsg.Vector3> _repeated_sourcePos_codec
-        = pb::FieldCodec.ForMessage(58, global::NFMsg.Vector3.Parser);
-    private readonly pbc::RepeatedField<global::NFMsg.Vector3> sourcePos_ = new pbc::RepeatedField<global::NFMsg.Vector3>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::NFMsg.Vector3> SourcePos {
-      get { return sourcePos_; }
-    }
-
-    /// <summary>Field number for the "move_direction" field.</summary>
-    public const int MoveDirectionFieldNumber = 8;
-    private static readonly pb::FieldCodec<global::NFMsg.Vector3> _repeated_moveDirection_codec
-        = pb::FieldCodec.ForMessage(66, global::NFMsg.Vector3.Parser);
-    private readonly pbc::RepeatedField<global::NFMsg.Vector3> moveDirection_ = new pbc::RepeatedField<global::NFMsg.Vector3>();
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public pbc::RepeatedField<global::NFMsg.Vector3> MoveDirection {
-      get { return moveDirection_; }
-    }
-
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
-      return Equals(other as ReqAckPlayerMove);
+      return Equals(other as PosSyncUnit);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(ReqAckPlayerMove other) {
+    public bool Equals(PosSyncUnit other) {
       if (ReferenceEquals(other, null)) {
         return false;
       }
@@ -1434,13 +1412,11 @@ namespace NFMsg {
         return true;
       }
       if (!object.Equals(Mover, other.Mover)) return false;
-      if (MoveType != other.MoveType) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Speed, other.Speed)) return false;
-      if (Time != other.Time) return false;
-      if (LastState != other.LastState) return false;
-      if(!targetPos_.Equals(other.targetPos_)) return false;
-      if(!sourcePos_.Equals(other.sourcePos_)) return false;
-      if(!moveDirection_.Equals(other.moveDirection_)) return false;
+      if (!object.Equals(Now, other.Now)) return false;
+      if (!object.Equals(Pos, other.Pos)) return false;
+      if (!object.Equals(Direction, other.Direction)) return false;
+      if (Status != other.Status) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(Time, other.Time)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1448,13 +1424,11 @@ namespace NFMsg {
     public override int GetHashCode() {
       int hash = 1;
       if (mover_ != null) hash ^= Mover.GetHashCode();
-      if (MoveType != 0) hash ^= MoveType.GetHashCode();
-      if (Speed != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Speed);
-      if (Time != 0) hash ^= Time.GetHashCode();
-      if (LastState != 0) hash ^= LastState.GetHashCode();
-      hash ^= targetPos_.GetHashCode();
-      hash ^= sourcePos_.GetHashCode();
-      hash ^= moveDirection_.GetHashCode();
+      if (now_ != null) hash ^= Now.GetHashCode();
+      if (pos_ != null) hash ^= Pos.GetHashCode();
+      if (direction_ != null) hash ^= Direction.GetHashCode();
+      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Time != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(Time);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1472,25 +1446,26 @@ namespace NFMsg {
         output.WriteRawTag(10);
         output.WriteMessage(Mover);
       }
-      if (MoveType != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(MoveType);
+      if (now_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Now);
       }
-      if (Speed != 0F) {
-        output.WriteRawTag(29);
-        output.WriteFloat(Speed);
+      if (pos_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Pos);
       }
-      if (Time != 0) {
-        output.WriteRawTag(32);
-        output.WriteInt32(Time);
+      if (direction_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Direction);
       }
-      if (LastState != 0) {
+      if (Status != 0) {
         output.WriteRawTag(40);
-        output.WriteInt32(LastState);
+        output.WriteInt32(Status);
       }
-      targetPos_.WriteTo(output, _repeated_targetPos_codec);
-      sourcePos_.WriteTo(output, _repeated_sourcePos_codec);
-      moveDirection_.WriteTo(output, _repeated_moveDirection_codec);
+      if (Time != 0F) {
+        output.WriteRawTag(53);
+        output.WriteFloat(Time);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1502,21 +1477,21 @@ namespace NFMsg {
       if (mover_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mover);
       }
-      if (MoveType != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(MoveType);
+      if (now_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Now);
       }
-      if (Speed != 0F) {
+      if (pos_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Pos);
+      }
+      if (direction_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Direction);
+      }
+      if (Status != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Status);
+      }
+      if (Time != 0F) {
         size += 1 + 4;
       }
-      if (Time != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Time);
-      }
-      if (LastState != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(LastState);
-      }
-      size += targetPos_.CalculateSize(_repeated_targetPos_codec);
-      size += sourcePos_.CalculateSize(_repeated_sourcePos_codec);
-      size += moveDirection_.CalculateSize(_repeated_moveDirection_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1524,7 +1499,7 @@ namespace NFMsg {
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(ReqAckPlayerMove other) {
+    public void MergeFrom(PosSyncUnit other) {
       if (other == null) {
         return;
       }
@@ -1534,21 +1509,30 @@ namespace NFMsg {
         }
         Mover.MergeFrom(other.Mover);
       }
-      if (other.MoveType != 0) {
-        MoveType = other.MoveType;
+      if (other.now_ != null) {
+        if (now_ == null) {
+          Now = new global::NFMsg.Vector3();
+        }
+        Now.MergeFrom(other.Now);
       }
-      if (other.Speed != 0F) {
-        Speed = other.Speed;
+      if (other.pos_ != null) {
+        if (pos_ == null) {
+          Pos = new global::NFMsg.Vector3();
+        }
+        Pos.MergeFrom(other.Pos);
       }
-      if (other.Time != 0) {
+      if (other.direction_ != null) {
+        if (direction_ == null) {
+          Direction = new global::NFMsg.Vector3();
+        }
+        Direction.MergeFrom(other.Direction);
+      }
+      if (other.Status != 0) {
+        Status = other.Status;
+      }
+      if (other.Time != 0F) {
         Time = other.Time;
       }
-      if (other.LastState != 0) {
-        LastState = other.LastState;
-      }
-      targetPos_.Add(other.targetPos_);
-      sourcePos_.Add(other.sourcePos_);
-      moveDirection_.Add(other.moveDirection_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1567,32 +1551,33 @@ namespace NFMsg {
             input.ReadMessage(Mover);
             break;
           }
-          case 16: {
-            MoveType = input.ReadInt32();
+          case 18: {
+            if (now_ == null) {
+              Now = new global::NFMsg.Vector3();
+            }
+            input.ReadMessage(Now);
             break;
           }
-          case 29: {
-            Speed = input.ReadFloat();
+          case 26: {
+            if (pos_ == null) {
+              Pos = new global::NFMsg.Vector3();
+            }
+            input.ReadMessage(Pos);
             break;
           }
-          case 32: {
-            Time = input.ReadInt32();
+          case 34: {
+            if (direction_ == null) {
+              Direction = new global::NFMsg.Vector3();
+            }
+            input.ReadMessage(Direction);
             break;
           }
           case 40: {
-            LastState = input.ReadInt32();
+            Status = input.ReadInt32();
             break;
           }
-          case 50: {
-            targetPos_.AddEntriesFrom(input, _repeated_targetPos_codec);
-            break;
-          }
-          case 58: {
-            sourcePos_.AddEntriesFrom(input, _repeated_sourcePos_codec);
-            break;
-          }
-          case 66: {
-            moveDirection_.AddEntriesFrom(input, _repeated_moveDirection_codec);
+          case 53: {
+            Time = input.ReadFloat();
             break;
           }
         }
@@ -1626,13 +1611,7 @@ namespace NFMsg {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ReqAckPlayerPosSync(ReqAckPlayerPosSync other) : this() {
-      mover_ = other.mover_ != null ? other.mover_.Clone() : null;
-      time_ = other.time_;
-      interpolationTime_ = other.interpolationTime_;
-      position_ = other.position_ != null ? other.position_.Clone() : null;
-      direction_ = other.direction_ != null ? other.direction_.Clone() : null;
-      status_ = other.status_;
-      frame_ = other.frame_;
+      syncUnit_ = other.syncUnit_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1641,81 +1620,14 @@ namespace NFMsg {
       return new ReqAckPlayerPosSync(this);
     }
 
-    /// <summary>Field number for the "mover" field.</summary>
-    public const int MoverFieldNumber = 1;
-    private global::NFMsg.Ident mover_;
+    /// <summary>Field number for the "sync_unit" field.</summary>
+    public const int SyncUnitFieldNumber = 1;
+    private static readonly pb::FieldCodec<global::NFMsg.PosSyncUnit> _repeated_syncUnit_codec
+        = pb::FieldCodec.ForMessage(10, global::NFMsg.PosSyncUnit.Parser);
+    private readonly pbc::RepeatedField<global::NFMsg.PosSyncUnit> syncUnit_ = new pbc::RepeatedField<global::NFMsg.PosSyncUnit>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::NFMsg.Ident Mover {
-      get { return mover_; }
-      set {
-        mover_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "time" field.</summary>
-    public const int TimeFieldNumber = 2;
-    private int time_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Time {
-      get { return time_; }
-      set {
-        time_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "InterpolationTime" field.</summary>
-    public const int InterpolationTimeFieldNumber = 3;
-    private float interpolationTime_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public float InterpolationTime {
-      get { return interpolationTime_; }
-      set {
-        interpolationTime_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "position" field.</summary>
-    public const int PositionFieldNumber = 4;
-    private global::NFMsg.Vector3 position_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::NFMsg.Vector3 Position {
-      get { return position_; }
-      set {
-        position_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "direction" field.</summary>
-    public const int DirectionFieldNumber = 5;
-    private global::NFMsg.Vector3 direction_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public global::NFMsg.Vector3 Direction {
-      get { return direction_; }
-      set {
-        direction_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "status" field.</summary>
-    public const int StatusFieldNumber = 6;
-    private int status_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Status {
-      get { return status_; }
-      set {
-        status_ = value;
-      }
-    }
-
-    /// <summary>Field number for the "frame" field.</summary>
-    public const int FrameFieldNumber = 7;
-    private int frame_;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int Frame {
-      get { return frame_; }
-      set {
-        frame_ = value;
-      }
+    public pbc::RepeatedField<global::NFMsg.PosSyncUnit> SyncUnit {
+      get { return syncUnit_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1731,26 +1643,14 @@ namespace NFMsg {
       if (ReferenceEquals(other, this)) {
         return true;
       }
-      if (!object.Equals(Mover, other.Mover)) return false;
-      if (Time != other.Time) return false;
-      if (!pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.Equals(InterpolationTime, other.InterpolationTime)) return false;
-      if (!object.Equals(Position, other.Position)) return false;
-      if (!object.Equals(Direction, other.Direction)) return false;
-      if (Status != other.Status) return false;
-      if (Frame != other.Frame) return false;
+      if(!syncUnit_.Equals(other.syncUnit_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (mover_ != null) hash ^= Mover.GetHashCode();
-      if (Time != 0) hash ^= Time.GetHashCode();
-      if (InterpolationTime != 0F) hash ^= pbc::ProtobufEqualityComparers.BitwiseSingleEqualityComparer.GetHashCode(InterpolationTime);
-      if (position_ != null) hash ^= Position.GetHashCode();
-      if (direction_ != null) hash ^= Direction.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
-      if (Frame != 0) hash ^= Frame.GetHashCode();
+      hash ^= syncUnit_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1764,34 +1664,7 @@ namespace NFMsg {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (mover_ != null) {
-        output.WriteRawTag(10);
-        output.WriteMessage(Mover);
-      }
-      if (Time != 0) {
-        output.WriteRawTag(16);
-        output.WriteInt32(Time);
-      }
-      if (InterpolationTime != 0F) {
-        output.WriteRawTag(29);
-        output.WriteFloat(InterpolationTime);
-      }
-      if (position_ != null) {
-        output.WriteRawTag(34);
-        output.WriteMessage(Position);
-      }
-      if (direction_ != null) {
-        output.WriteRawTag(42);
-        output.WriteMessage(Direction);
-      }
-      if (Status != 0) {
-        output.WriteRawTag(48);
-        output.WriteInt32(Status);
-      }
-      if (Frame != 0) {
-        output.WriteRawTag(56);
-        output.WriteInt32(Frame);
-      }
+      syncUnit_.WriteTo(output, _repeated_syncUnit_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1800,27 +1673,7 @@ namespace NFMsg {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (mover_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Mover);
-      }
-      if (Time != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Time);
-      }
-      if (InterpolationTime != 0F) {
-        size += 1 + 4;
-      }
-      if (position_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Position);
-      }
-      if (direction_ != null) {
-        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Direction);
-      }
-      if (Status != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Status);
-      }
-      if (Frame != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(Frame);
-      }
+      size += syncUnit_.CalculateSize(_repeated_syncUnit_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1832,36 +1685,7 @@ namespace NFMsg {
       if (other == null) {
         return;
       }
-      if (other.mover_ != null) {
-        if (mover_ == null) {
-          Mover = new global::NFMsg.Ident();
-        }
-        Mover.MergeFrom(other.Mover);
-      }
-      if (other.Time != 0) {
-        Time = other.Time;
-      }
-      if (other.InterpolationTime != 0F) {
-        InterpolationTime = other.InterpolationTime;
-      }
-      if (other.position_ != null) {
-        if (position_ == null) {
-          Position = new global::NFMsg.Vector3();
-        }
-        Position.MergeFrom(other.Position);
-      }
-      if (other.direction_ != null) {
-        if (direction_ == null) {
-          Direction = new global::NFMsg.Vector3();
-        }
-        Direction.MergeFrom(other.Direction);
-      }
-      if (other.Status != 0) {
-        Status = other.Status;
-      }
-      if (other.Frame != 0) {
-        Frame = other.Frame;
-      }
+      syncUnit_.Add(other.syncUnit_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1874,40 +1698,7 @@ namespace NFMsg {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            if (mover_ == null) {
-              Mover = new global::NFMsg.Ident();
-            }
-            input.ReadMessage(Mover);
-            break;
-          }
-          case 16: {
-            Time = input.ReadInt32();
-            break;
-          }
-          case 29: {
-            InterpolationTime = input.ReadFloat();
-            break;
-          }
-          case 34: {
-            if (position_ == null) {
-              Position = new global::NFMsg.Vector3();
-            }
-            input.ReadMessage(Position);
-            break;
-          }
-          case 42: {
-            if (direction_ == null) {
-              Direction = new global::NFMsg.Vector3();
-            }
-            input.ReadMessage(Direction);
-            break;
-          }
-          case 48: {
-            Status = input.ReadInt32();
-            break;
-          }
-          case 56: {
-            Frame = input.ReadInt32();
+            syncUnit_.AddEntriesFrom(input, _repeated_syncUnit_codec);
             break;
           }
         }
@@ -2115,6 +1906,7 @@ namespace NFMsg {
         [pbr::OriginalName("EET_REFUSE")] EetRefuse = 2,
         [pbr::OriginalName("EET_MISS")] EetMiss = 3,
         [pbr::OriginalName("EET_CRIT")] EetCrit = 4,
+        [pbr::OriginalName("EET_ULTI")] EetUlti = 5,
       }
 
     }
@@ -2336,9 +2128,6 @@ namespace NFMsg {
 
   }
 
-  /// <summary>
-  //////////////////////////////////////////
-  /// </summary>
   public sealed partial class ReqAckSwapScene : pb::IMessage<ReqAckSwapScene> {
     private static readonly pb::MessageParser<ReqAckSwapScene> _parser = new pb::MessageParser<ReqAckSwapScene>(() => new ReqAckSwapScene());
     private pb::UnknownFieldSet _unknownFields;
@@ -2633,6 +2422,276 @@ namespace NFMsg {
         }
       }
     }
+
+  }
+
+  /// <summary>
+  //////////////////////////////////////////
+  /// </summary>
+  public sealed partial class ReqAckPlayerChat : pb::IMessage<ReqAckPlayerChat> {
+    private static readonly pb::MessageParser<ReqAckPlayerChat> _parser = new pb::MessageParser<ReqAckPlayerChat>(() => new ReqAckPlayerChat());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ReqAckPlayerChat> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::NFMsg.NFMsgShareReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ReqAckPlayerChat() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ReqAckPlayerChat(ReqAckPlayerChat other) : this() {
+      playerId_ = other.playerId_ != null ? other.playerId_.Clone() : null;
+      playerName_ = other.playerName_;
+      chatChannel_ = other.chatChannel_;
+      chatType_ = other.chatType_;
+      chatInfo_ = other.chatInfo_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ReqAckPlayerChat Clone() {
+      return new ReqAckPlayerChat(this);
+    }
+
+    /// <summary>Field number for the "player_id" field.</summary>
+    public const int PlayerIdFieldNumber = 1;
+    private global::NFMsg.Ident playerId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::NFMsg.Ident PlayerId {
+      get { return playerId_; }
+      set {
+        playerId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "player_name" field.</summary>
+    public const int PlayerNameFieldNumber = 2;
+    private pb::ByteString playerName_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString PlayerName {
+      get { return playerName_; }
+      set {
+        playerName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "chat_channel" field.</summary>
+    public const int ChatChannelFieldNumber = 3;
+    private global::NFMsg.ReqAckPlayerChat.Types.EGameChatChannel chatChannel_ = global::NFMsg.ReqAckPlayerChat.Types.EGameChatChannel.EgccGlobal;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::NFMsg.ReqAckPlayerChat.Types.EGameChatChannel ChatChannel {
+      get { return chatChannel_; }
+      set {
+        chatChannel_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "chat_type" field.</summary>
+    public const int ChatTypeFieldNumber = 4;
+    private global::NFMsg.ReqAckPlayerChat.Types.EGameChatType chatType_ = global::NFMsg.ReqAckPlayerChat.Types.EGameChatType.EgctText;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::NFMsg.ReqAckPlayerChat.Types.EGameChatType ChatType {
+      get { return chatType_; }
+      set {
+        chatType_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "chat_info" field.</summary>
+    public const int ChatInfoFieldNumber = 5;
+    private pb::ByteString chatInfo_ = pb::ByteString.Empty;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pb::ByteString ChatInfo {
+      get { return chatInfo_; }
+      set {
+        chatInfo_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ReqAckPlayerChat);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ReqAckPlayerChat other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(PlayerId, other.PlayerId)) return false;
+      if (PlayerName != other.PlayerName) return false;
+      if (ChatChannel != other.ChatChannel) return false;
+      if (ChatType != other.ChatType) return false;
+      if (ChatInfo != other.ChatInfo) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (playerId_ != null) hash ^= PlayerId.GetHashCode();
+      if (PlayerName.Length != 0) hash ^= PlayerName.GetHashCode();
+      if (ChatChannel != global::NFMsg.ReqAckPlayerChat.Types.EGameChatChannel.EgccGlobal) hash ^= ChatChannel.GetHashCode();
+      if (ChatType != global::NFMsg.ReqAckPlayerChat.Types.EGameChatType.EgctText) hash ^= ChatType.GetHashCode();
+      if (ChatInfo.Length != 0) hash ^= ChatInfo.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (playerId_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(PlayerId);
+      }
+      if (PlayerName.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteBytes(PlayerName);
+      }
+      if (ChatChannel != global::NFMsg.ReqAckPlayerChat.Types.EGameChatChannel.EgccGlobal) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) ChatChannel);
+      }
+      if (ChatType != global::NFMsg.ReqAckPlayerChat.Types.EGameChatType.EgctText) {
+        output.WriteRawTag(32);
+        output.WriteEnum((int) ChatType);
+      }
+      if (ChatInfo.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteBytes(ChatInfo);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (playerId_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PlayerId);
+      }
+      if (PlayerName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(PlayerName);
+      }
+      if (ChatChannel != global::NFMsg.ReqAckPlayerChat.Types.EGameChatChannel.EgccGlobal) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ChatChannel);
+      }
+      if (ChatType != global::NFMsg.ReqAckPlayerChat.Types.EGameChatType.EgctText) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ChatType);
+      }
+      if (ChatInfo.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeBytesSize(ChatInfo);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ReqAckPlayerChat other) {
+      if (other == null) {
+        return;
+      }
+      if (other.playerId_ != null) {
+        if (playerId_ == null) {
+          PlayerId = new global::NFMsg.Ident();
+        }
+        PlayerId.MergeFrom(other.PlayerId);
+      }
+      if (other.PlayerName.Length != 0) {
+        PlayerName = other.PlayerName;
+      }
+      if (other.ChatChannel != global::NFMsg.ReqAckPlayerChat.Types.EGameChatChannel.EgccGlobal) {
+        ChatChannel = other.ChatChannel;
+      }
+      if (other.ChatType != global::NFMsg.ReqAckPlayerChat.Types.EGameChatType.EgctText) {
+        ChatType = other.ChatType;
+      }
+      if (other.ChatInfo.Length != 0) {
+        ChatInfo = other.ChatInfo;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (playerId_ == null) {
+              PlayerId = new global::NFMsg.Ident();
+            }
+            input.ReadMessage(PlayerId);
+            break;
+          }
+          case 18: {
+            PlayerName = input.ReadBytes();
+            break;
+          }
+          case 24: {
+            ChatChannel = (global::NFMsg.ReqAckPlayerChat.Types.EGameChatChannel) input.ReadEnum();
+            break;
+          }
+          case 32: {
+            ChatType = (global::NFMsg.ReqAckPlayerChat.Types.EGameChatType) input.ReadEnum();
+            break;
+          }
+          case 42: {
+            ChatInfo = input.ReadBytes();
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the ReqAckPlayerChat message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      public enum EGameChatChannel {
+        [pbr::OriginalName("EGCC_GLOBAL")] EgccGlobal = 0,
+        [pbr::OriginalName("EGCC_CLAN")] EgccClan = 1,
+        [pbr::OriginalName("EGCC_ROOM")] EgccRoom = 2,
+        [pbr::OriginalName("EGCC_TEAM")] EgccTeam = 3,
+      }
+
+      public enum EGameChatType {
+        [pbr::OriginalName("EGCT_TEXT")] EgctText = 0,
+        [pbr::OriginalName("EGCT_VOICE")] EgctVoice = 1,
+        [pbr::OriginalName("EGCT_EMOJI")] EgctEmoji = 2,
+      }
+
+    }
+    #endregion
 
   }
 

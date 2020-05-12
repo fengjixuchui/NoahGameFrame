@@ -36,6 +36,7 @@
 #include "NFComm/NFPluginModule/NFIScheduleModule.h"
 #include "NFComm/NFPluginModule/NFIDataTailModule.h"
 #include "NFComm/NFPluginModule/NFISceneModule.h"
+#include "NFComm/NFPluginModule/NFIEventModule.h"
 
 class NFICreateRoleModule : public NFIModule
 {
@@ -59,12 +60,12 @@ public:
     virtual bool AfterInit();
 
 protected:
-	void OnReqiureRoleListProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
+	void OnRequireRoleListProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
 	void OnResponseRoleListProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
 	
 	void OnCreateRoleGameProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
 	void OnDeleteRoleGameProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
-	void OnClienEnterGameProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
+	void OnClientEnterGameProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
 	
 	void OnDBLoadRoleDataProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
 
@@ -103,6 +104,7 @@ private:
 	NFINetClientModule* m_pNetClientModule;
 	NFIScheduleModule* m_pScheduleModule;
 	NFIDataTailModule* m_pDataTailModule;
+	NFIEventModule* m_pEventModule;
 };
 
 #endif
