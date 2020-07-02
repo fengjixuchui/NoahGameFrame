@@ -97,7 +97,12 @@ int NFPropertyModule::OnObjectLevelEvent(const NFGUID& self, const std::string& 
         m_pLogModule->LogError(self, configID + " configID not exist!!!", __FUNCTION__, __LINE__);
         return 1;
     }
-    m_pKernelModule->SetPropertyString(self, NFrame::Player::ConfigID(), configID);
+    //normally, we modify the config id by hero module, so we don't need to modify the config id by job and level
+    //but if you don't have a hero system, you could active this code
+    if (!activeExtraController)
+	{
+		m_pKernelModule->SetPropertyString(self, NFrame::Player::ConfigID(), configID);
+	}
 
     FullHPMP(self);
     FullSP(self);
@@ -578,4 +583,9 @@ bool NFPropertyModule::EnoughDiamond(const NFGUID& self, const int nValue)
     }
 
     return false;
+}
+
+void NFPropertyModule::ActiveExtraController()
+{
+	activeExtraController = true;
 }
