@@ -40,6 +40,7 @@ class NFHelloWorld2
 public:
     NFHelloWorld2(NFIPluginManager* p)
     {
+        m_bIsExecute = true;
         pPluginManager = p;
     }
 
@@ -52,7 +53,7 @@ public:
     virtual bool Shut();
 
 protected:
-    int OnPropertyCallBackEvent(const NFGUID& self, const std::string& strProperty, const NFData& oldVarList, const NFData& newVarList);
+    int OnPropertyCallBackEvent(const NFGUID& self, const std::string& propertyName, const NFData& oldVarList, const NFData& newVarList);
 
 
 

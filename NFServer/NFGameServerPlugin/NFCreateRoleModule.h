@@ -37,11 +37,7 @@
 #include "NFComm/NFPluginModule/NFIDataTailModule.h"
 #include "NFComm/NFPluginModule/NFISceneModule.h"
 #include "NFComm/NFPluginModule/NFIEventModule.h"
-
-class NFICreateRoleModule : public NFIModule
-{
-
-};
+#include "NFComm/NFPluginModule/NFICreateRoleModule.h"
 
 class NFCreateRoleModule
     : public NFICreateRoleModule
@@ -59,37 +55,31 @@ public:
     virtual bool Execute();
     virtual bool AfterInit();
 
-protected:
-	void OnRequireRoleListProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
-	void OnResponseRoleListProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
-	
-	void OnCreateRoleGameProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
-	void OnDeleteRoleGameProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
-	void OnClientEnterGameProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
-	
-	void OnDBLoadRoleDataProcess(const NFSOCK nSockIndex, const int nMsgID, const char* msg, const uint32_t nLen);
+	virtual void SetDefaultSceneID(const int sceneID);
 
-	int OnObjectPlayerEvent(const NFGUID & self, const std::string & strClassName, const CLASS_OBJECT_EVENT eClassEvent, const NFDataList & var);
+protected:
+	void OnRequireRoleListProcess(const NFSOCK sockIndex, const int msgID, const char* msg, const uint32_t len);
+	void OnResponseRoleListProcess(const NFSOCK sockIndex, const int msgID, const char* msg, const uint32_t len);
+	
+	void OnCreateRoleGameProcess(const NFSOCK sockIndex, const int msgID, const char* msg, const uint32_t len);
+	void OnDeleteRoleGameProcess(const NFSOCK sockIndex, const int msgID, const char* msg, const uint32_t len);
+	void OnClientEnterGameProcess(const NFSOCK sockIndex, const int msgID, const char* msg, const uint32_t len);
+	
+	void OnDBLoadRoleDataProcess(const NFSOCK sockIndex, const int msgID, const char* msg, const uint32_t len);
+
+	int OnObjectPlayerEvent(const NFGUID & self, const std::string & className, const CLASS_OBJECT_EVENT classEvent, const NFDataList & var);
 
 
 private:
-
-	bool ConvertRecordToPB(const NF_SHARE_PTR<NFIRecord>& pRecord, NFMsg::ObjectRecordBase* pRecordData);
-	bool ConvertPBToRecord(const NFMsg::ObjectRecordBase& pRecordData, NF_SHARE_PTR<NFIRecord> pRecord);
-	bool ConvertRecordManagerToPB(const NF_SHARE_PTR<NFIRecordManager>& pRecord, NFMsg::ObjectRecordList* pRecordData);
-	bool ConvertPBToRecordManager(const NFMsg::ObjectRecordList& pRecordData, NF_SHARE_PTR<NFIRecordManager> pRecord);
-
-	bool ConvertPropertyManagerToPB(const NF_SHARE_PTR<NFIPropertyManager>& pProps, NFMsg::ObjectPropertyList* pPropertyData);
-	bool ConvertPBToPropertyManager(const NFMsg::ObjectPropertyList& pPropertyData, NF_SHARE_PTR<NFIPropertyManager> pProps);
-
 
 	void AttachData(const NFGUID& self);
 	void SaveData(const NFGUID& self);
 
-	int SaveDataOnTime(const NFGUID& self, const std::string& name, const float fIntervalTime, const int nCount);
+	int SaveDataOnTime(const NFGUID& self, const std::string& name, const float fIntervalTime, const int count);
 
 private:
 
+	int defaultSceneID = 1;
 	std::map<NFGUID, NFMsg::RoleDataPack> mxObjectDataCache;
 
 private:

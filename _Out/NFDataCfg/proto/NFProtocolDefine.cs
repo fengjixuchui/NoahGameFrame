@@ -80,6 +80,7 @@ namespace NFrame
 		public static readonly String DEF_VALUE = "DEF_VALUE";// int
 		public static readonly String DEF_WIND = "DEF_WIND";// int
 		public static readonly String DIZZY_GATE = "DIZZY_GATE";// int
+		public static readonly String EVASION = "EVASION";// int
 		public static readonly String HPREGEN = "HPREGEN";// int
 		public static readonly String LUCK = "LUCK";// int
 		public static readonly String MAGIC_GATE = "MAGIC_GATE";// int
@@ -92,7 +93,6 @@ namespace NFrame
 		public static readonly String PHYSICAL_GATE = "PHYSICAL_GATE";// int
 		public static readonly String REFLECTDAMAGE = "REFLECTDAMAGE";// int
 		public static readonly String SKILL_GATE = "SKILL_GATE";// int
-		public static readonly String SPREGEN = "SPREGEN";// int
 		public static readonly String SUCKBLOOD = "SUCKBLOOD";// int
 		// Record
 		public class CommValue
@@ -106,7 +106,7 @@ namespace NFrame
 			public const int MAXMP = 4;//int
 			public const int MAXSP = 5;//int
 			public const int HPREGEN = 6;//int
-			public const int SPREGEN = 7;//int
+			public const int EVASION = 7;//int
 			public const int MPREGEN = 8;//int
 			public const int ATK_VALUE = 9;//int
 			public const int DEF_VALUE = 10;//int
@@ -225,7 +225,6 @@ namespace NFrame
 		public static readonly String State = "State";// int
 		// Property
 		public static readonly String HeroConfigID = "HeroConfigID";// string
-		public static readonly String HeroConfigIDEx = "HeroConfigIDEx";// string
 		public static readonly String Job = "Job";// int
 		public static readonly String Level = "Level";// int
 		// Record
@@ -252,7 +251,8 @@ namespace NFrame
 		public static readonly String State = "State";// int
 		// Property
 		public static readonly String AwardData = "AwardData";// string
-		public static readonly String AwardProperty = "AwardProperty";// int
+		public static readonly String AwardProperty = "AwardProperty";// string
+		public static readonly String AwardPropertyValue = "AwardPropertyValue";// int
 		public static readonly String BuyPrice = "BuyPrice";// int
 		public static readonly String ConsumeData = "ConsumeData";// string
 		public static readonly String CoolDownTime = "CoolDownTime";// float
@@ -365,6 +365,7 @@ namespace NFrame
 		public static readonly String DEF_VALUE = "DEF_VALUE";// int
 		public static readonly String DEF_WIND = "DEF_WIND";// int
 		public static readonly String DIZZY_GATE = "DIZZY_GATE";// int
+		public static readonly String EVASION = "EVASION";// int
 		public static readonly String HPREGEN = "HPREGEN";// int
 		public static readonly String LUCK = "LUCK";// int
 		public static readonly String MAGIC_GATE = "MAGIC_GATE";// int
@@ -377,7 +378,6 @@ namespace NFrame
 		public static readonly String PHYSICAL_GATE = "PHYSICAL_GATE";// int
 		public static readonly String REFLECTDAMAGE = "REFLECTDAMAGE";// int
 		public static readonly String SKILL_GATE = "SKILL_GATE";// int
-		public static readonly String SPREGEN = "SPREGEN";// int
 		public static readonly String SUCKBLOOD = "SUCKBLOOD";// int
 		// Include Property, come from CooldownRecord 
 		// Record
@@ -392,7 +392,7 @@ namespace NFrame
 			public const int MAXMP = 4;//int
 			public const int MAXSP = 5;//int
 			public const int HPREGEN = 6;//int
-			public const int SPREGEN = 7;//int
+			public const int EVASION = 7;//int
 			public const int MPREGEN = 8;//int
 			public const int ATK_VALUE = 9;//int
 			public const int DEF_VALUE = 10;//int
@@ -477,6 +477,8 @@ namespace NFrame
 		public static readonly String State = "State";// int
 		// Property
 		public static readonly String Account = "Account";// string
+		public static readonly String BattlePoint = "BattlePoint";// int
+		public static readonly String ClanID = "ClanID";// object
 		public static readonly String ConnectKey = "ConnectKey";// string
 		public static readonly String Diamond = "Diamond";// int
 		public static readonly String EXP = "EXP";// int
@@ -491,15 +493,19 @@ namespace NFrame
 		public static readonly String Level = "Level";// int
 		public static readonly String MAXEXP = "MAXEXP";// int
 		public static readonly String MP = "MP";// int
+		public static readonly String NoticeID = "NoticeID";// int
 		public static readonly String OnlineCount = "OnlineCount";// int
 		public static readonly String OnlineTime = "OnlineTime";// object
 		public static readonly String Race = "Race";// int
+		public static readonly String ReconnectReason = "ReconnectReason";// int
 		public static readonly String SP = "SP";// int
+		public static readonly String ScenarioProgress = "ScenarioProgress";// int
 		public static readonly String Sex = "Sex";// int
 		public static readonly String SkillNormal = "SkillNormal";// string
 		public static readonly String SkillSpecial1 = "SkillSpecial1";// string
 		public static readonly String SkillSpecial2 = "SkillSpecial2";// string
 		public static readonly String SkillTHUMP = "SkillTHUMP";// string
+		public static readonly String TeamID = "TeamID";// object
 		public static readonly String TotalTime = "TotalTime";// int
 		// Include Property, come from EffectData 
 		public static readonly String ATK_DARK = "ATK_DARK";// int
@@ -520,6 +526,7 @@ namespace NFrame
 		public static readonly String DEF_VALUE = "DEF_VALUE";// int
 		public static readonly String DEF_WIND = "DEF_WIND";// int
 		public static readonly String DIZZY_GATE = "DIZZY_GATE";// int
+		public static readonly String EVASION = "EVASION";// int
 		public static readonly String HPREGEN = "HPREGEN";// int
 		public static readonly String LUCK = "LUCK";// int
 		public static readonly String MAGIC_GATE = "MAGIC_GATE";// int
@@ -532,14 +539,13 @@ namespace NFrame
 		public static readonly String PHYSICAL_GATE = "PHYSICAL_GATE";// int
 		public static readonly String REFLECTDAMAGE = "REFLECTDAMAGE";// int
 		public static readonly String SKILL_GATE = "SKILL_GATE";// int
-		public static readonly String SPREGEN = "SPREGEN";// int
 		public static readonly String SUCKBLOOD = "SUCKBLOOD";// int
 		// Include Property, come from CooldownRecord 
 		// Record
-		public class EquipmentList
+		public class HeroEquipmentList
 		{
 			//Class name
-			public static readonly String ThisName = "EquipmentList";
+			public static readonly String ThisName = "HeroEquipmentList";
 			public const int HeroID = 0;//object
 			public const int EquipmentID = 1;//object
 			public const int SlotIndex = 2;//int
@@ -577,6 +583,14 @@ namespace NFrame
 			public const int RandPropertyValue = 3;//int
 			public const int IntensifyLevel = 4;//int
 			public const int Date = 5;//int
+			public const int Equipped = 6;//int
+			public const int Stone1 = 7;//string
+			public const int Stone2 = 8;//string
+			public const int Stone3 = 9;//string
+			public const int Stone4 = 10;//string
+			public const int Lock = 11;//int
+			public const int Future = 12;//int
+			public const int UserData = 13;//string
 
 		}
 		public class CommValue
@@ -590,7 +604,7 @@ namespace NFrame
 			public const int MAXMP = 4;//int
 			public const int MAXSP = 5;//int
 			public const int HPREGEN = 6;//int
-			public const int SPREGEN = 7;//int
+			public const int EVASION = 7;//int
 			public const int MPREGEN = 8;//int
 			public const int ATK_VALUE = 9;//int
 			public const int DEF_VALUE = 10;//int
@@ -654,10 +668,13 @@ namespace NFrame
 		public static readonly String MaxGroupPlayers = "MaxGroupPlayers";// int
 		public static readonly String NavigationResPath = "NavigationResPath";// string
 		public static readonly String RelivePos = "RelivePos";// string
+		public static readonly String RelivePosEx = "RelivePosEx";// string
 		public static readonly String ResPath = "ResPath";// string
+		public static readonly String ResourcePos = "ResourcePos";// string
 		public static readonly String SceneName = "SceneName";// string
 		public static readonly String SceneShowName = "SceneShowName";// string
 		public static readonly String SoundList = "SoundList";// string
+		public static readonly String SubType = "SubType";// int
 		public static readonly String Type = "Type";// int
 		public static readonly String Width = "Width";// int
 		// Record

@@ -27,8 +27,8 @@
 #define NF_HTTP_SERVER_H
 
 #include "NFIHttpServer.h"
-#include "NFComm/NFCore/NFException.h"
 #include "NFComm/NFCore/NFMapEx.hpp"
+#include "NFComm/NFCore/easylogging++.h"
 
 #if NF_PLATFORM == NF_PLATFORM_WIN
 #include <winsock2.h>
@@ -41,6 +41,7 @@
 
 #else
 
+#include "NFComm/NFCore/NFException.hpp"
 #include <fcntl.h>
 #include <sys/stat.h>
 #include <sys/socket.h>
@@ -76,10 +77,10 @@ public:
     }
 
     template<typename BaseType>
-    NFHttpServer(BaseType* pBaseType, bool (BaseType::*handleRecieve)(NF_SHARE_PTR<NFHttpRequest> req), NFWebStatus (BaseType::*handleFilter)(NF_SHARE_PTR<NFHttpRequest> req))
+    NFHttpServer(BaseType* pBaseType, bool (BaseType::*handleReceiver)(NF_SHARE_PTR<NFHttpRequest> req), NFWebStatus (BaseType::*handleFilter)(NF_SHARE_PTR<NFHttpRequest> req))
     {
         mxBase = NULL;
-		mReceiveCB = std::bind(handleRecieve, pBaseType, std::placeholders::_1);
+		mReceiveCB = std::bind(handleReceiver, pBaseType, std::placeholders::_1);
 		mFilter = std::bind(handleFilter, pBaseType, std::placeholders::_1);
     }
 
@@ -100,7 +101,7 @@ public:
 
     virtual int InitServer(const unsigned short nPort);
 
-    virtual bool ResponseMsg(NF_SHARE_PTR<NFHttpRequest> req, const std::string& strMsg, NFWebStatus code, const std::string& strReason = "OK");
+    virtual bool ResponseMsg(NF_SHARE_PTR<NFHttpRequest> req, const std::string& msg, NFWebStatus code, const std::string& strReason = "OK");
 
     virtual NF_SHARE_PTR<NFHttpRequest> GetHttpRequest(const int64_t index);
 

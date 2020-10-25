@@ -28,6 +28,7 @@
 
 NFThreadPoolModule::NFThreadPoolModule(NFIPluginManager* p)
 {
+    m_bIsExecute = true;
 	pPluginManager = p;
 }
 
@@ -77,7 +78,7 @@ void NFThreadPoolModule::DoAsyncTask(const NFGUID taskID, const std::string & da
 	task.xThreadFunc = asyncFunctor;
 	task.xEndFunc = functor_end;
 	
-	int index = 0;
+	size_t index = 0;
 	if (!taskID.IsNull())
 	{
 		index = taskID.nData64 % mThreadPool.size();
@@ -106,6 +107,6 @@ void NFThreadPoolModule::TaskResult(const NFThreadTask& task)
 
 int NFThreadPoolModule::GetThreadCount()
 {
-	return mThreadPool.size();
+	return (int)mThreadPool.size();
 }
 

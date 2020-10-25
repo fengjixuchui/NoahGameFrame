@@ -41,7 +41,7 @@ YOU WILL KNOW HOW TO USE THE "NFIActorModule" TO PROCESS IN DIFFERENT CPU
 class NFHttpComponent : public NFIComponent
 {
 public:
-	NFHttpComponent() : NFIComponent(GET_CLASS_NAME(NFHttpComponent))
+	NFHttpComponent() : NFIComponent(typeid(NFHttpComponent).name())
 	{
 	}
 
@@ -91,6 +91,7 @@ class NFHelloWorld4Module
 public:
     NFHelloWorld4Module(NFIPluginManager* p)
     {
+        m_bIsExecute = true;
         pPluginManager = p;
     }
 
