@@ -230,11 +230,11 @@ bool HelloWorld1::Shut()
 
 ## Step 1
 Create a Lua Script File, and Must Contain following functions
-- reload()
 - awake()
 - init()
 - ready_execute()
 - after_init()
+
 - before_shut()
 - shut()
 
@@ -245,11 +245,9 @@ Mostly like this
 test_module = {}
 register_module(test_module,"test_module");
 
-function test_module.reload()
-end
 
 function test_module.awake()
-	reload();
+
 end
 
 function test_module.init()

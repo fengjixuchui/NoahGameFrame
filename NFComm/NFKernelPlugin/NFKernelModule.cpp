@@ -110,18 +110,6 @@ bool NFKernelModule::Execute()
 		mtDeleteSelfList.clear();
 	}
 
-	NF_SHARE_PTR<NFIObject> pObject = First();
-	while (pObject)
-	{
-		mnCurExeObject = pObject->Self();
-		pObject->Execute();
-
-		mnCurExeObject.nHead64 = 0;
-		mnCurExeObject.nData64 = 0;
-
-		pObject = Next();
-	}
-
 	return true;
 }
 
@@ -164,8 +152,7 @@ NF_SHARE_PTR<NFIObject> NFKernelModule::CreateObject(const NFGUID& self, const i
 	pObject = NF_SHARE_PTR<NFIObject>(NF_NEW NFObject(ident, pPluginManager));
 	AddElement(ident, pObject);
 
-	bool backup = false;
-	if (backup)
+	if (pPluginManager->UsingBackThread())
 	{
 		m_pThreadPoolModule->DoAsyncTask(NFGUID(), "",
 			[=](NFThreadTask& task) -> void
@@ -191,7 +178,7 @@ NF_SHARE_PTR<NFIObject> NFKernelModule::CreateObject(const NFGUID& self, const i
 							xProperty->SetRef(pStaticConfigPropertyInfo->GetRef());
 							xProperty->SetUpload(pStaticConfigPropertyInfo->GetUpload());
 
-							//???
+							//
 							pObject->AddPropertyCallBack(pStaticConfigPropertyInfo->GetKey(), this, &NFKernelModule::OnPropertyCommonEvent);
 
 							pStaticConfigPropertyInfo = pStaticClassPropertyManager->Next();
@@ -212,7 +199,7 @@ NF_SHARE_PTR<NFIObject> NFKernelModule::CreateObject(const NFGUID& self, const i
 							xRecord->SetCache(pConfigRecordInfo->GetCache());
 							xRecord->SetUpload(pConfigRecordInfo->GetUpload());
 
-							//???
+							//
 							pObject->AddRecordCallBack(pConfigRecordInfo->GetName(), this, &NFKernelModule::OnRecordCommonEvent);
 
 							pConfigRecordInfo = pStaticClassRecordManager->Next();
